@@ -1,0 +1,73 @@
+# Build artifacts
+*.exe
+*.o
+*.obj
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+final_injector.cpp
+emoji_final.cpp
+temp_injector.cpp
+
+# Shellcode files (do not commit actual payloads)
+*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+ehthumbs_vista.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Video files (too large for git)
+*.avi
+*.mov
+*.mkv
+
+# PDF files (use releases or external storage)
+*.pdf
+
+# Research documents (not part of the open-source tool)
+COMPLETE_DISSERTATION.md
+Final_Report.pdf
+links.txt
+
+# GitHub Copilot / AI rules
+.github/instructions/
+
+# Compiled Python
+*.pyc
+
+# Environment variables
+.env
+.env.local
